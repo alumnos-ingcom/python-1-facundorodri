@@ -13,7 +13,8 @@ def suma_lenta(numero, otro_numero):
     Esta funcion primero guarda en la variable suma el primer numero ingresado por el usuario. Luego mediante el lazo indefinido while 
     va sumando el segundo numero de a 1 vez en la variable suma. Por ultimo, envia el resultado mediante un return
     """
-    suma = numero
+    suma = abs(numero)
+    otro_numero = abs(otro_numero)
     while otro_numero > 0:
         suma = suma + 1
         otro_numero = otro_numero -1
